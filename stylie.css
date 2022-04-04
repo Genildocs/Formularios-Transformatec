@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 #email{
     margin-left: 4.8%;
     margin-bottom: 1%;
@@ -11,4 +14,24 @@
 }
 button{
     margin-top: 1%;
+}
+#endereco{
+    height: 50px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+#nome{
+    margin-left: 6.8%;
+    margin-bottom: 5px;
+}
+#sobrenome{
+    margin-left: 5%;
+    margin-bottom: 5px
+}
+#endereco{
+    margin-left: 5.7%;
+}
+.teste{
+    margin-right: 30%;
 }

@@ -1,37 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Redressed&family=Roboto+Serif:ital,wght@0,100;0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Redressed&family=Roboto+Condensed&family=Roboto+Serif:ital,wght@0,100;0,400;1,400;1,500&display=swap');
 
+#titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #332d8b;
+    margin-left: 7%;
+}
+#sub-titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #332d8b;
+    margin-left: 10%;
+}
+fieldset{
+    border: 0;
+}
 
-#email{
-    margin-left: 4.8%;
-    margin-bottom: 1%;
+body{
+    background-color: aquamarine;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    color: #332d8b;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
 }
-#senha{
-    margin-left: 5%;
+
+input, select, button{
+    border-radius: 5px;
 }
-#Confirmarsenha{
-    margin-left: 1.4%;
-    margin-top: 1%;
+
+.campo{
+    margin-bottom: 1em;
 }
-button{
-    margin-top: 1%;
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #332d8b;
+    display: block;
 }
-#endereco{
-    height: 50px;
+
+fieldset.grupo .campo{
+    float: left;
+    margin-left: 1em;
 }
-h3{
-    font-family: 'Roboto', sans-serif;
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+     padding: 0.2em;
+     border: 1px solid rgb(238, 18, 18);
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+     display: block;
 }
-#nome{
-    margin-left: 6.8%;
-    margin-bottom: 5px;
+
+.campo select option{
+    padding-right: 1em;
 }
-#sobrenome{
-    margin-left: 5%;
-    margin-bottom: 5px
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #e4e4e4;
 }
-#endereco{
-    margin-left: 5.7%;
+
+#check{
+    display: inline-block;
 }
-.teste{
-    margin-left:20%;
+
+.botao{
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom:1em;
+    color: #ffffff;
+    padding:0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bota:hover{
+    background:#b11111
 }
